@@ -90,6 +90,7 @@ p {
 }
 
 .links-section-title {
+    color: rgb(0, 0, 99);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -107,6 +108,7 @@ p {
 }
 
 .link-box-title {
+    color: rgb(0, 0, 99);
     margin-top: 1px;
 }
 
@@ -169,6 +171,7 @@ p {
 .next-gof-episode-announcement {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color: rgb(0, 0, 99);
     margin-bottom: 2px;
 }
 
