@@ -6,6 +6,7 @@
     --sidebarBackgroundColor: whitesmoke;
     --sideBarButtonColor: rgb(186, 194, 243);
     --sidebarButtonTextColor: rgb(64, 64, 66);
+    --headerAndFooterColor: rgb(58, 52, 95);
 }
 
 p {
@@ -13,7 +14,7 @@ p {
 }
 
 .header {
-    background-color: rgb(58, 52, 95);
+    background-color: var(--headerAndFooterColor);
     height: 55px;
     left: 0px;
     right: 0px;
@@ -240,4 +241,17 @@ p {
 
 .head_button_text {
     text-decoration: none;
+}
+
+.footer {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    min-height: 100px;
+    background-color: var(--headerAndFooterColor);
+}
+
+.copyright {
+    color: var(--yellow);
 }
