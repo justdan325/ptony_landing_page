@@ -164,13 +164,15 @@ p {
 }
 
 .catholic-game-night,
-.next-gof-episode {
+.next-gof-episode, 
+.promotional-box {
     display: inline-block;
     padding-top: 10px;
 }
 
 .catholic-game-night-announcement,
-.next-gof-episode-announcement {
+.next-gof-episode-announcement, 
+.promotional-box-announcement {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: rgb(0, 0, 99);
@@ -178,13 +180,15 @@ p {
 }
 
 .catholic-game-night-button,
-.next-gof-episode-button {
+.next-gof-episode-button, 
+.promotional-box-button {
     border-style: none;
     background-color: var(--sidebarBackgroundColor);
 }
 
 .catholic-game-night-img,
-.next-gof-episode-img {
+.next-gof-episode-img, 
+.promotional-box-img {
     width: 90%;
     border-color: rgb(120, 111, 245);
     border-style: solid;
@@ -195,7 +199,8 @@ p {
 }
 
 .catholic-game-night-link,
-.next-gof-episode-link {
+.next-gof-episode-link,
+.promotional-box-link {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
@@ -248,7 +253,7 @@ p {
     margin-bottom: -20px;
     margin-left: -10px;
     margin-right: -10px;
-    min-height: 100px;
+    min-height: 150px;
     background-color: var(--headerAndFooterColor);
 }
 
