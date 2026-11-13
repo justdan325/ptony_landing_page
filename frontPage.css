@@ -74,8 +74,8 @@ p {
 .sidebar-left-button {
     color: var(--sidebarButtonTextColor);
     background-color: var(--sideBarButtonColor);
-    min-width: 30%;
-    min-height: 52px;
+    min-width: 35%;
+    min-height: 65px;
     margin-bottom: 24px;
     border-style: solid;
     border-color: darkgray;
