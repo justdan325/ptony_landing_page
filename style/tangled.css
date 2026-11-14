@@ -205,8 +205,17 @@ p {
     text-decoration: none;
 }
 
-.latest-episode-embedded {
+.latest-episode {
     margin-top: 50px;
+}
+
+.latest-episode-embedded {
+    display: block;
+    width: 100%;
+    max-width: 90%;          /* never wider than 90% of the parent div */
+    aspect-ratio: 16 / 9;    
+    margin: 0 auto;          /* centers it when it hits the max-width */
+    border: 0;
 }
 
 .latest-episode-description {
